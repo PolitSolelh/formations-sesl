@@ -3,6 +3,11 @@
   src: url(scotchlidaire2.ttf);
 }
 
+@font-face {
+ font-family: 'Tahoma';
+ src: url(https://fonts.googleapis.com/css?family=Tahoma);
+}
+
 .formations_titre{
   width: 50%;
   height: 100px;
@@ -24,7 +29,6 @@
   top: 10px;
   margin: auto;
   padding: 20px;
-  font-family: 'scotchlidaires';
   border-bottom: 30px solid #a3a3c7; 
 }
 
@@ -45,7 +49,20 @@
   padding-right: 10px;
   text-align: justify;
   font-size: 15px;
-  overflow: auto;
+  overflow: hidden;
+  color: black;
+  font-family: 'Tahoma';
+}
+
+.formations_corps{
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 15px;
   color: black;
   font-family: 'Tahoma';
 }
